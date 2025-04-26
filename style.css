@@ -173,4 +173,26 @@ body.dark-theme .contact-form textarea {
 body.dark-theme .footer {
   background: #1f1f1f;
 }
+a, .btn, .portfolio-item, .service-card {
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover, .nav-links a:hover {
+  color: #2575fc;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.btn:hover {
+  background: #6a11cb;
+  transform: scale(1.05);
+}
 
